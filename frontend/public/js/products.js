@@ -6,7 +6,8 @@
 let FMCG_CATEGORIES = [];
 let FMCG_PRODUCTS = [];
 
-const API_BASE_URL = window.API_BASE_URL || window.VITE_API_URL || 'http://localhost:5000';
+const isProductionHost = typeof window !== 'undefined' && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1';
+const API_BASE_URL = window.API_BASE_URL || window.VITE_API_URL || (isProductionHost ? 'https://fresh-mart-1gla.onrender.com' : 'http://localhost:5000');
 
 const CATEGORY_META = {
   'detergent': { icon: '🧼', desc: 'High-action stain removal & fabric care powders' },
@@ -26,7 +27,7 @@ const CATEGORY_META = {
 async function loadFreshMartDataFromBackend() {
   try {
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 2500);
+    const timeoutId = setTimeout(() => controller.abort(), 12000);
 
     const [catRes, prodRes] = await Promise.all([
       fetch(`${API_BASE_URL}/api/get`, { signal: controller.signal }),
