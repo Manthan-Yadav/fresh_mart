@@ -3,14 +3,24 @@
    Vanilla JS Engine for Dynamic Services Page, Search, Modals, Forms & FAQs
    ========================================================================== */
 
-document.addEventListener('DOMContentLoaded', async () => {
+function initPageLoader() {
+  const loader = document.getElementById('page-loader');
+  if (loader && !loader.classList.contains('hidden')) {
+    loader.classList.add('hidden');
+  }
+}
+
+// Absolute fallback safety: dismiss page loader within 400ms max under any conditions
+setTimeout(initPageLoader, 400);
+window.addEventListener('load', initPageLoader);
+
+function initApp() {
+  initPageLoader();
+
   // Initialize Lucide Icons
   if (window.lucide) {
     window.lucide.createIcons();
   }
-
-  // 1. PAGE LOADER INITIALIZATION
-  initPageLoader();
 
   // 2. NAVBAR & MOBILE MENU
   initNavbar();
@@ -21,7 +31,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   // 4. STATS COUNTER ANIMATION
   initStatsCounter();
 
-  // 5. SERVICES PAGE DYNAMIC CATALOG (Search, Category Filter, Product Grid, Sorting)
+  // 5. SERVICES PAGE DYNAMIC CATALOG
   initServicesCatalog();
 
   // 6. HOMEPAGE FEATURED SECTIONS
@@ -36,34 +46,22 @@ document.addEventListener('DOMContentLoaded', async () => {
   // 9. INQUIRY CART DRAWER & BADGE
   initInquiryCart();
 
-  // 10. DYNAMIC BACKEND API SYNC
+  // 10. DYNAMIC BACKEND API SYNC (Non-blocking background fetch)
   if (typeof loadFreshMartDataFromBackend === 'function') {
-    try {
-      const isBackendLoaded = await loadFreshMartDataFromBackend();
+    loadFreshMartDataFromBackend().then((isBackendLoaded) => {
       if (isBackendLoaded) {
         initServicesCatalog();
         initHomeSections();
         if (window.lucide) window.lucide.createIcons();
       }
-    } catch (err) {
-      console.warn('Backend connection issue:', err);
-    }
+    }).catch((err) => console.warn('Backend connection issue:', err));
   }
-});
+}
 
-// Fallback safety to ensure page loader is removed
-window.addEventListener('load', initPageLoader);
-
-/* ==========================================================================
-   1. PAGE LOADER
-   ========================================================================== */
-function initPageLoader() {
-  const loader = document.getElementById('page-loader');
-  if (loader && !loader.classList.contains('hidden')) {
-    setTimeout(() => {
-      loader.classList.add('hidden');
-    }, 300);
-  }
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initApp);
+} else {
+  initApp();
 }
 
 /* ==========================================================================

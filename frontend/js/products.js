@@ -25,10 +25,14 @@ const CATEGORY_META = {
  */
 async function loadFreshMartDataFromBackend() {
   try {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 2500);
+
     const [catRes, prodRes] = await Promise.all([
-      fetch(`${API_BASE_URL}/api/get`),
-      fetch(`${API_BASE_URL}/api/product/get`)
+      fetch(`${API_BASE_URL}/api/get`, { signal: controller.signal }),
+      fetch(`${API_BASE_URL}/api/product/get`, { signal: controller.signal })
     ]);
+    clearTimeout(timeoutId);
 
     if (!catRes.ok || !prodRes.ok) {
       console.error(`Database Fetch Failed - Categories Status: ${catRes.status}, Products Status: ${prodRes.status}`);
