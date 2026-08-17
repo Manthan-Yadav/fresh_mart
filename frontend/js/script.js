@@ -38,24 +38,31 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   // 10. DYNAMIC BACKEND API SYNC
   if (typeof loadFreshMartDataFromBackend === 'function') {
-    const isBackendLoaded = await loadFreshMartDataFromBackend();
-    if (isBackendLoaded) {
-      initServicesCatalog();
-      initHomeSections();
-      if (window.lucide) window.lucide.createIcons();
+    try {
+      const isBackendLoaded = await loadFreshMartDataFromBackend();
+      if (isBackendLoaded) {
+        initServicesCatalog();
+        initHomeSections();
+        if (window.lucide) window.lucide.createIcons();
+      }
+    } catch (err) {
+      console.warn('Backend connection issue:', err);
     }
   }
 });
+
+// Fallback safety to ensure page loader is removed
+window.addEventListener('load', initPageLoader);
 
 /* ==========================================================================
    1. PAGE LOADER
    ========================================================================== */
 function initPageLoader() {
   const loader = document.getElementById('page-loader');
-  if (loader) {
+  if (loader && !loader.classList.contains('hidden')) {
     setTimeout(() => {
       loader.classList.add('hidden');
-    }, 400);
+    }, 300);
   }
 }
 

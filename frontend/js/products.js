@@ -6,7 +6,7 @@
 let FMCG_CATEGORIES = [];
 let FMCG_PRODUCTS = [];
 
-const API_BASE_URL = window.API_BASE_URL || (typeof import.meta !== 'undefined' && import.meta.env && import.meta.env.VITE_API_URL) || 'http://localhost:5000';
+const API_BASE_URL = window.API_BASE_URL || window.VITE_API_URL || 'http://localhost:5000';
 
 const CATEGORY_META = {
   'detergent': { icon: '🧼', desc: 'High-action stain removal & fabric care powders' },
