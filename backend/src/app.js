@@ -8,6 +8,11 @@ const contactRoutes = require('./routers/contactMessages.routes');
 
 app.use(cors());
 app.use(express.json());
+
+app.get('/', (req, res) => {
+  res.json({ status: 'online', message: 'FreshMart FMCG Backend API is live' });
+});
+
 app.use('/api', categoryRoutes);
 app.use('/api/product', productRoutes);
 app.use('/api/contact' , contactRoutes);
