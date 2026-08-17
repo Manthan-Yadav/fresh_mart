@@ -1,0 +1,6 @@
+{
+  "name": "FreshMart FMCG",
+  "description": "Modern premium FMCG company website with multi-category product catalog, interactive search, FAQs, and brand showcase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

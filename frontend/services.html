@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FMCG Product Catalog & Services - FreshMart FMCG</title>
+  <meta name="description" content="Explore FreshMart FMCG complete product catalog across 9 categories including detergent powders, shampoos, toilet cleaners, adhesive tapes, perfumes, and soft toys.">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <!-- PAGE LOADER -->
+  <div id="page-loader">
+    <div class="loader-spinner"></div>
+    <div class="loader-text">FRESHMART FMCG</div>
+  </div>
+
+  <!-- STICKY NAVBAR -->
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">🌿</div>
+        FreshMart <span>FMCG</span>
+      </a>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link active">Services</a>
+        <a href="faq.html" class="nav-link">FAQ</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="cart-btn-trigger" title="View Wholesale Inquiry List">
+          <i data-lucide="shopping-bag" style="width:20px; height:20px;"></i>
+          <span class="cart-count-badge">0</span>
+        </button>
+        <a href="contact.html" class="btn btn-sm btn-primary">Get Quote</a>
+        <button class="mobile-toggle" aria-label="Toggle Navigation">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- BREADCRUMB BANNER -->
+  <section class="section" style="background: linear-gradient(135deg, var(--primary) 0%, #063d25 100%); color:#ffffff; padding: 3.5rem 0;">
+    <div class="container text-center" style="text-align: center;">
+      <span class="badge" style="background:rgba(255,255,255,0.15); color:#ffffff; margin-bottom:1rem;">Dynamic Product Catalog</span>
+      <h1 style="font-family: var(--font-heading); font-size: 2.75rem; font-weight: 800;">FMCG Categories & Products</h1>
+      <p style="opacity: 0.85; max-width:650px; margin: 0.5rem auto 0 auto; font-size: 1.1rem;">
+        Click any category below or search by product name/brand to explore certified FMCG items for wholesale and retail distribution.
+      </p>
+    </div>
+  </section>
+
+  <!-- CLICKABLE CATEGORY CARDS SECTION -->
+  <section class="section section-bg-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge badge-primary">Browse By Category</span>
+        <h2 class="section-title">Select an FMCG Category</h2>
+        <p class="section-subtitle">Click any category card below to instantly display its products in the catalog below.</p>
+      </div>
+
+      <div id="categories-display-grid" class="category-grid">
+        <!-- Dynamically rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN DYNAMIC CATALOG & FILTER SECTION -->
+  <section id="products-section-anchor" class="section section-bg-alt">
+    <div class="container">
+      <div class="section-header" style="margin-bottom: 2rem;">
+        <span class="badge badge-secondary">Real-Time Search & Filter</span>
+        <h2 class="section-title">Explore FreshMart FMCG Inventory</h2>
+        <p class="section-subtitle" id="catalog-results-count">Showing all products</p>
+      </div>
+
+      <!-- SEARCH & CATEGORY FILTER BAR -->
+      <div class="catalog-toolbar">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="catalog-search-input" placeholder="Search product by name (e.g. Surf Excel, Dove, Harpic, Fogg, Teddy Bear) or brand..." autocomplete="off">
+        </div>
+
+        <div id="category-pills-wrapper" class="category-filter-pills">
+          <!-- Dynamically rendered pill buttons -->
+        </div>
+      </div>
+
+      <!-- PRODUCT CARDS GRID (DYNAMICALLY RENDERED FROM JS ARRAYS) -->
+      <div id="products-display-grid" class="products-grid">
+        <!-- Rendered via js/script.js from js/products.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- WHOLESALE ORDER INQUIRY CALLOUT -->
+  <section class="section section-bg-light">
+    <div class="container">
+      <div class="newsletter-box" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);">
+        <h2>Need Bulk Order Discounts or Custom Packaging?</h2>
+        <p>We provide commercial volume discounts, customized distributor terms, and private labeling support for major chain retailers.</p>
+        <div style="display:flex; justify-content:center; gap:1rem; flex-wrap:wrap; margin-top:1.5rem;">
+          <a href="contact.html?subject=Wholesale+Distributor+Inquiry" class="btn btn-primary">
+            Submit Wholesale Quote Request
+          </a>
+          <a href="tel:+9101244589000" class="btn btn-outline" style="color:#ffffff; border-color:rgba(255,255,255,0.3);">
+            📞 Call Wholesale Hotline
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo">🌿 FreshMart FMCG</div>
+          <p class="footer-about">
+            India's premier FMCG distributor & manufacturer committed to delivering authentic home care, personal hygiene, household cleaners, and luxury plush goods at competitive rates.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services & Catalog</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Product Categories</h4>
+          <ul class="footer-links">
+            <li><a href="services.html">Detergent Powder</a></li>
+            <li><a href="services.html">Shampoo</a></li>
+            <li><a href="services.html">Toilet Cleaner</a></li>
+            <li><a href="services.html">Dish Wash Bar</a></li>
+            <li><a href="services.html">Mosquito Repellent</a></li>
+            <li><a href="services.html">Perfumes & Soft Toys</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Contact Info</h4>
+          <ul class="footer-links" style="font-size: 0.9rem;">
+            <li>📍 Sector 62, FMCG Hub, Gurugram 122001</li>
+            <li>📞 +91 (0124) 458-9000</li>
+            <li>✉️ support@freshmartfmcg.com</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 FreshMart FMCG Private Limited. All Rights Reserved.</p>
+        <div style="display:flex; gap:1.5rem;">
+          <a href="about.html">Privacy Policy</a>
+          <a href="about.html">Terms of Wholesale</a>
+          <a href="about.html">Quality Policy</a>
+        </div>
+    </div>
+  </footer>
+
+  <!-- SCROLL TO TOP -->
+  <button id="scroll-top" aria-label="Scroll to Top">
+    <i data-lucide="arrow-up"></i>
+  </button>
+
+  <script src="js/products.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

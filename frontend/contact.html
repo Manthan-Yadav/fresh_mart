@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - FreshMart FMCG</title>
+  <meta name="description"
+    content="Get in touch with FreshMart FMCG for wholesale quotes, distribution partnerships, customer support, and product inquiries.">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+  <!-- PAGE LOADER -->
+  <div id="page-loader">
+    <div class="loader-spinner"></div>
+    <div class="loader-text">FRESHMART FMCG</div>
+  </div>
+
+  <!-- STICKY NAVBAR -->
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">🌿</div>
+        FreshMart <span>FMCG</span>
+      </a>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="faq.html" class="nav-link">FAQ</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="cart-btn-trigger" title="View Wholesale Inquiry List">
+          <i data-lucide="shopping-bag" style="width:20px; height:20px;"></i>
+          <span class="cart-count-badge">0</span>
+        </button>
+        <a href="contact.html" class="btn btn-sm btn-primary">Get Quote</a>
+        <button class="mobile-toggle" aria-label="Toggle Navigation">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- BREADCRUMB BANNER -->
+  <section class="section"
+    style="background: linear-gradient(135deg, var(--primary) 0%, #063d25 100%); color:#ffffff; padding: 3.5rem 0;">
+    <div class="container text-center" style="text-align: center;">
+      <span class="badge" style="background:rgba(255,255,255,0.15); color:#ffffff; margin-bottom:1rem;">Get In
+        Touch</span>
+      <h1 style="font-family: var(--font-heading); font-size: 2.75rem; font-weight: 800;">Contact FreshMart FMCG</h1>
+      <p style="opacity: 0.85; max-width:600px; margin: 0.5rem auto 0 auto; font-size: 1.1rem;">
+        Have questions about bulk FMCG orders, product specifications, or distributor pricing? Our team is ready to
+        assist you.
+      </p>
+    </div>
+  </section>
+
+  <!-- MAIN CONTACT SECTION (INFO & FORM) -->
+  <section class="section section-bg-light">
+    <div class="container contact-grid">
+
+      <!-- CONTACT INFO CARD -->
+      <div>
+        <div class="contact-info-card">
+          <h3
+            style="font-family:var(--font-heading); font-size:1.6rem; font-weight:800; color:var(--dark); margin-bottom:1.5rem;">
+            Corporate Headquarters
+          </h3>
+
+          <div class="info-item">
+            <div class="info-icon"><i data-lucide="map-pin"></i></div>
+            <div class="info-details">
+              <h4>Company Address</h4>
+              <p>FreshMart Logistics Park, Plot 42-45, Sector 62, FMCG Hub, Gurugram, NCR 122001, India</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"><i data-lucide="phone"></i></div>
+            <div class="info-details">
+              <h4>Phone Numbers</h4>
+              <p>Main Office: +91 (0124) 458-9000</p>
+              <p>Toll Free: 1800-200-FRESH (37374)</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"><i data-lucide="mail"></i></div>
+            <div class="info-details">
+              <h4>Email Addresses</h4>
+              <p>General Info: info@freshmartfmcg.com</p>
+              <p>Sales & Wholesale: sales@freshmartfmcg.com</p>
+            </div>
+          </div>
+
+          <div class="info-item" style="margin-bottom: 0;">
+            <div class="info-icon"><i data-lucide="clock"></i></div>
+            <div class="info-details">
+              <h4>Business Hours</h4>
+              <p>Monday – Saturday: 8:00 AM – 8:00 PM IST</p>
+              <p>Sunday: Closed (Online inquiries queued)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- GOOGLE MAP PLACEHOLDER -->
+        <div class="map-placeholder">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d267777.0908688967!2d76.90076643549561!3d28.44951214179698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d3d9a6d1a5759%3A0x736f55ed457806e4!2sFlipkart%20Warehouse!5e1!3m2!1sen!2sin!4v1786165033475!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+      </div>
+
+      <!-- CONTACT FORM CARD -->
+      <div class="contact-form-card">
+        <h3
+          style="font-family:var(--font-heading); font-size:1.6rem; font-weight:800; color:var(--dark); margin-bottom:0.5rem;">
+          Send Us a Message
+        </h3>
+        <p style="color:var(--text-secondary); font-size:0.95rem; margin-bottom:1.5rem;">
+          Fill out the form below for wholesale pricing, sample requests, or distributor partnerships.
+        </p>
+
+        <form id="freshmart-contact-form" novalidate>
+          <div class="form-group">
+            <label for="form-name">Your Full Name *</label>
+            <input type="text" id="form-name" class="form-control" placeholder="e.g. Rajesh Sharma" required>
+          </div>
+
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+            <div class="form-group">
+              <label for="form-email">Email Address *</label>
+              <input type="email" id="form-email" class="form-control" placeholder="e.g. rajesh@store.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="form-phone">Phone Number *</label>
+              <input type="tel" id="form-phone" class="form-control" placeholder="e.g. +91 9876543210" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="form-subject">Subject *</label>
+            <input type="text" id="form-subject" name="subject" class="form-control"
+              placeholder="e.g. Wholesale Quotation for Detergent Powders & Shampoos" required>
+          </div>
+
+          <div class="form-group">
+            <label for="form-message">Your Message / Order Details *</label>
+            <textarea id="form-message" name="message" class="form-control" rows="5"
+              placeholder="Specify required FMCG product categories, estimated quantities, and delivery location..."
+              required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%;">
+            <i data-lucide="send" style="width:18px; height:18px;"></i>
+            Submit Inquiry Now
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo">🌿 FreshMart FMCG</div>
+          <p class="footer-about">
+            India's premier FMCG distributor & manufacturer committed to delivering authentic home care, personal
+            hygiene, household cleaners, and luxury plush goods at competitive rates.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services & Catalog</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Product Categories</h4>
+          <ul class="footer-links">
+            <li><a href="services.html">Detergent Powder</a></li>
+            <li><a href="services.html">Shampoo</a></li>
+            <li><a href="services.html">Toilet Cleaner</a></li>
+            <li><a href="services.html">Dish Wash Bar</a></li>
+            <li><a href="services.html">Mosquito Repellent</a></li>
+            <li><a href="services.html">Perfumes & Soft Toys</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Contact Info</h4>
+          <ul class="footer-links" style="font-size: 0.9rem;">
+            <li>📍 Sector 62, FMCG Hub, Gurugram 122001</li>
+            <li>📞 +91 (0124) 458-9000</li>
+            <li>✉️ support@freshmartfmcg.com</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 FreshMart FMCG Private Limited. All Rights Reserved.</p>
+        <div style="display:flex; gap:1.5rem;">
+          <a href="about.html">Privacy Policy</a>
+          <a href="about.html">Terms of Wholesale</a>
+          <a href="about.html">Quality Policy</a>
+        </div>
+    </div>
+  </footer>
+
+  <!-- SCROLL TO TOP -->
+  <button id="scroll-top" aria-label="Scroll to Top">
+    <i data-lucide="arrow-up"></i>
+  </button>
+
+  <script src="js/products.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,181 @@
+DETERGENT POWDER
+
+name=Surf Excel
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/83ec4dd2-72f6-4c64-9a37-c38b32612db8.png
+
+name=Ariel
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1782191834621-115.png
+
+name=Tide
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1782363634419-260.png
+
+name=Wheel
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1770608647712-619.png
+
+name=Rin
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1783062678774-50.png
+
+name = gaddi
+url = https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/97331802-4ed8-4575-94ba-fe2ca04c91e3.png
+
+SHAMPOO
+
+name=Dove
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1771931062015-101.png
+
+name=Pantene
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1771923717021-2152.png
+
+name=Clinic Plus
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1782497147859-245.png
+
+name=Tresemmé 
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1785314876361-271.png
+
+name=Head & Shoulders
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1775553956612-416.png
+
+name=Sunsilk
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1776155891120-393.png
+
+ADHESIVE TAPE
+
+name=Cello Tape
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1778348720635-260.png
+
+name=Scotch Magic 
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/16deb312-96c1-4779-a835-bf8e67c2c61f.png
+
+name=Brown Packing Tape
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/42b276c3-269c-4c81-94ed-0f87556aa82e.png
+
+name=Double Sided Tape
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1783777892241-378.png
+
+name=Electrical Tape
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/4296149b-03bf-4ed2-ac31-4dda4377c88a.png
+
+name=Masking Tape
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/9bce141b-e18b-40a9-97a4-5c5fd5481c26.png
+
+TOILET CLEANER
+
+name=Harpic
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1770705263225-1744.png
+
+name=Domex
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1783077693193-275.png
+
+name=Lizol
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/9b416fba-d920-43c2-beb4-bc5764685779.png
+
+name=Sanifresh
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/363be46e1ebc405cb7122ff8914a5ab8.png
+
+name=Beco 
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/fd7d2070-6ed5-42d1-8bb8-a1d9dfb92234.png
+
+name=Taski
+url=https://jkdenterprises.in/wp-content/uploads/2026/01/2X9A6091-600x600.jpg.webp
+
+DISH WASH BAR
+
+name=Vim 
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/78958301-ced4-4c8a-965d-557816188552.png
+
+name=Exo 
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1772698047485-566.png
+
+name=Pril 
+url=https://m.media-amazon.com/images/I/41BM2nfDqXL._SY300_SX300_QL70_FMwebp_.jpg
+
+name=Patanjali 
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/803bf85e-c0ba-426d-a706-ba651a3e7dc8.png
+
+name=Genteel 
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/2eded8dc-1d48-42c9-929e-805f17150bce.png
+
+name=Power Bar
+url=https://m.media-amazon.com/images/I/51iLZ0DIKZL._SY450_PIbundle-2,TopRight,0,0_AA450SH20_.jpg
+
+MOSQUITO REPELLENT
+
+name=Good Knight
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/50ea9735-da4d-497a-a275-4256b0aaac17.png
+
+name=All Out
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1770729565288-23.png
+
+name=Mortein
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/2952cc25-5e85-4fd4-b3d0-e430ac7679ee.png
+
+name=Odomos
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1784006908318-63.png
+
+name=Good Knight 
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/6b171896-87a6-455f-a8a8-7497a999f492.png
+
+name=Hit
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=450/da/cms-assets/cms/product/rc-upload-1772535388856-702.png
+
+
+Perfume
+
+name=Fogg
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/rc-upload-1775639803874-2359.png
+
+name=Denver
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/rc-upload-1772698047485-215.png
+
+name=Wild Stone
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/rc-upload-1775639803874-2431.png
+
+name=Bella Vita
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/rc-upload-1775639803874-2371.png
+
+name=Park Avenue
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/0240eaae-585c-4896-b719-f9c001c1315c.png
+
+name=Engage
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/rc-upload-1782457177707-15.png
+
+
+Rose Water
+
+name=Dabur Gulabari
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/64c5c9d2-ab78-43ef-9fd3-6c247c540b1f.png
+
+name=Khadi
+url=https://rukminim2.flixcart.com/image/1536/1536/xif0q/cleanser/5/j/3/210-ayurvedic-pure-rose-water-skin-toner-dead-skin-removal-anti-original-imah2xyxkkyknfma.jpeg?q=90
+
+name=VLCC
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/6e0e8a38dc2040c1bb829de5ccf72b9b.png
+
+name=Patanjali
+url=https://www.patanjaliayurved.net/assets/product_images/400x500/1766643853gulab1.webp
+
+name=Kama Ayurveda
+url=https://static.kamaayurveda.in/cdn-cgi/image/width=1200,format=auto/media/catalog/product/0/1/01_rose-floral-water-50ml_1_.png?store=default&image-type=image
+
+name=Biotique
+url=https://rukminim2.flixcart.com/image/1536/1536/xif0q/toner/5/g/q/-original-imagg4fcqmfrgwpf.jpeg?q=90
+
+Soft Toys
+
+name=Teddy Bear
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/225a3630-9cd3-4919-b867-3722dbb73154.png
+
+name=Rabbit
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/c63fdd48-b152-47af-a822-9a227089e3f5.png
+
+name=Panda
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/rc-upload-1784173376253-237.png
+
+name=Elephant
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/rc-upload-1770221714496-1135.png
+
+name=Dog
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/rc-upload-1770221714496-1187.png
+
+name=Unicorn
+url=https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/rc-upload-1770221714496-1097.png
